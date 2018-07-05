@@ -1,0 +1,59 @@
+<html>
+<head> 
+<title> Good Goodies! </title>
+<link rel="stylesheet" href="tempcss.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body>
+
+<nav class="nav">
+      <ul class="ul">
+
+      <li> <a href="C:\Users\LENOVO\Desktop\startup.html" style="font-family:kelvetica;"> Themes </a> </li>
+      <li> <a href="C:\Users\LENOVO\Desktop\startup.html" style="font-family:kelvetica;"> Our Prides </a> </li>
+      <li> <a href="C:\Users\LENOVO\Desktop\startup.html" style="font-family:kelvetica;"> About US </a> </li>
+      <li > <a href="C:\Users\LENOVO\Desktop\startup.html" style="font-family:kelvetica;">Contact</a> </li>
+      <li id="myBtn"> <a href="C:\Users\LENOVO\Desktop\startup.html" style="font-family:kelvetica;"> <img style="width:40px;height:40px; border-radius: 50%" src="C:\Users\LENOVO\Desktop\G\eventlogo.jpg"></a></li>
+    </ul>
+  </nav>
+  <br>
+
+
+<div class="container" style="margin-top:5% ">
+  <form action="" onsubmit="submitform()">
+  <h3> Thank you very much for visiting our website! We would love to hear feedback from you! Do share your experiences with us whether good or bad! Thanks a lot! </h3>
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+      <option value="india">India</option>
+    </select>
+
+    <label for="subject">Your Thoughts</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" name="submit" value="Send Thoughts!">
+
+  </form>
+  <script type="text/javascript">
+   function submitform(){
+                        if((document.getElementById('fname').value.length==0) || (document.getElementById('lname').value.length==0) ||(document.getElementById('country').value.length==0)||(document.getElementById('subject').value.length==0) )
+                            window.alert("Enter all details!");
+                        else
+                            window.alert("Yoohoo! Thanks for your feedback!");
+
+                    }
+                    </script>
+</div>
+
+</body>
+</html>

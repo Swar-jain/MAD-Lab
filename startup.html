@@ -1,0 +1,374 @@
+<html>
+<head> 
+<title> Good Goodies! </title>
+<link rel="stylesheet" href="tempcss.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+	.row {
+		width: 100%;
+
+	}
+	.col-6 {
+		float: left;
+		width: 50%;
+	}
+
+</style>
+</head>
+<body bgcolor="76323F" style="font-family:Lucida Sans Unicode;">
+
+
+<nav class="nav">
+      <ul class="ul">
+
+      <li> <a href="#1" style="font-family:kelvetica;"> Themes </a> </li>
+      <li> <a href="#2" style="font-family:kelvetica; "> Our Prides </a> </li>
+       <li> <a href="#what" style="font-family:kelvetica; "> What we do? </a> </li>
+      <li> <a href="#3" style="font-family:kelvetica;"> Our Principles</a> </li>
+      <li > <a href="#4" style="font-family:kelvetica;">Contact</a> </li>
+      <li id="myBtn"> <a href="C:\Users\LENOVO\Desktop\G\contact.html" style="font-family:kelvetica;"> <img style="width:40px;height:40px; border-radius: 50%" src="C:\Users\LENOVO\Desktop\G\eventlogo.jpg"></a></li>
+    </ul>
+  </nav>
+ 
+ <div class="slideshow-container">
+  <div class="mySlides fade">
+    <img src="C:\Users\LENOVO\Desktop\G\eventlogo.jpg" style="width:100%">
+    <div class="text"></div>
+  </div>
+
+  <div class="mySlides fade">
+    <img src="C:\Users\LENOVO\Desktop\G\img2.jpg" style="width:100%">
+    <div class="text"></div>
+  </div>
+
+  <div class="mySlides fade">
+    <img src="C:\Users\LENOVO\Desktop\G\img3.jpg" style="width:100%">
+    <div class="text"></div>
+  </div>
+
+  <div class="mySlides fade">
+    <img src="C:\Users\LENOVO\Desktop\G\img4.jpg" style="width:100%">
+    <div class="text"></div>
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 5000); // Change image every 2 seconds
+}
+</script>
+
+
+<div id="what" class="bgimg-2">
+            <div style="position:relative;text-align:center;padding:50px 80px;text-align: justify; color:#FA8072;">
+	           	<h1 align="center" style="font: "Lucida Sans Unicode; font-color:white;""><b>What we do?</b></h1>
+                <hr>
+		        <p style="font-size:20px; font:"Lucida Sans Unicode"; color: black;" id="ab1">
+               
+                Lumiere is a multidisciplinary creative space. 
+                We are based in Chennai.
+    We work together to design, create and produce work that we are proud of for people and organizations that we believe in. We are available for hire in a wide range of creative disciplines for a variety of jobs, projects and gigs.
+
+    There are a lot of agencies that do what we do. They share the same what and how, but our partners work with us for our why and our who. We’re minds and makers with business sense and creative chops, set out to connect people with what matters most — the experience. And we spend each day doing so by sharpening the tools of the digital trade.</p>
+    			
+            </div>  
+            <img src ="C:\Users\LENOVO\Desktop\G\img6.jpg" width="100%" align="center">
+	    </div>
+
+
+
+
+
+
+
+
+
+ <div id="1" style="position:relative;text-align:center;padding:50px 80px;text-align: justify; color: #FA8072">
+	<h1 align="center"> Themes </h1>
+	<hr>
+	<div>
+	<center>
+      <table width=100% style="color: #FA8072">
+        <tr>
+          <td>
+            <center>
+            <div>
+              <center>
+              <h1>Cartoons</h1> 
+              <img style="margin:10px;" width="600px" height="400px" src="C:\Users\LENOVO\Desktop\G\boo.jpg">
+              
+              <hr>
+            </center>
+            </div>
+          </center>
+          </td>
+          </tr>
+
+          <tr>
+          <td>
+            <center>
+            <div>
+              <center>
+              <h1>Cool Serene Exotic Gifts</h1>
+              <img style="margin:10px;" width="600px" height="400px" src="C:\Users\LENOVO\Desktop\G\wowza.jpg">
+              <hr>
+            </center>
+            </div>
+          </center>
+          </td>
+          </tr>
+
+          <tr>
+          <td>
+            <center>
+            <div>
+              <center>
+              <h1>For Royalty in you</h1>
+              <img style="margin:10px;" width="600px" height="400px" src="C:\Users\LENOVO\Desktop\G\costly.jpg">
+              <hr>
+            </center>
+            </div>
+          </center>
+          </td>
+          </tr>
+
+          <tr>
+          <td>
+            <center>
+            <div>
+              <center>
+              <h1>The Small thoughtfuls bags</h1>
+              <img style="margin:10px;" width="600px" height="400px" src="C:\Users\LENOVO\Desktop\G\sma.jpg">
+              <hr>
+            </center>
+            </div>
+          </center>
+          </td>
+          </tr>
+        
+      </table>
+    </center>
+</div>
+ </div>
+
+<br>
+<br>
+<br>
+<br>
+ <div style="position:relative;padding:50px 80px; color: #FA8072">
+	<h1 align="center"> Our Prides</h1>
+	<hr>
+	<h4 style="text-align: justify"> Like any other E-commerce organisation, we take immense pride in our customer satisfaction strategy. They are who motivate us to reach various heights. They are the only reason we still wake up at 3 AM each day and work our hearts out. Here are some of our customers sharing their experiences with us!  </h4>
+ </div>
+
+
+
+
+<div id="2" style="color: #777;background-color:#FA8072;text-align:center;padding:5px 50px;text-align: justify;margin-bottom:10%;">
+    <h4 class="heading"style="font-size:25px;color:#03A9F4;font-family:kelvetica;"><b></b></h4>
+      <center>
+      <table width=100%>
+        <tr>
+          <td>
+            <center>
+            <div>
+              <center>
+              <img style="margin:10px;" width="200px" height="200px" src="C:\Users\LENOVO\Desktop\G\srucee.jpg">
+              <h3 style="font-family:kelvetica;font-size:20px;">Sruthi Chandrashekaran</h3>
+              <hr style="width:40px;color:#03A9F4">
+              <quote> They have the best management talent and can handle any last minute rubble without a tear. Thanks to Lumiere my niece's first birthday party was much apprecited by all for our thoughtfulness and the amount of care we took even for the return gifts!</quote>
+              
+            </center>
+            </div>
+          </center>
+          </td>
+          <td>
+            <center>
+            <div>
+              <center>
+              <img style="margin:10px;" width="200px" height="200px" src="C:\Users\LENOVO\Desktop\G\swe.jpg">
+              <h3 style="font-family:kelvetica;font-size:20px;">Swedha Aravindan</h3>
+              <hr style="width:40px;color:#03A9F4">
+              <quote>Quality in a service or product is not what you put into it. It is what the customer gets out of it. True to this, We had a smooth bachelorette for my cousin. Thank you so much for tht Lumiere.</quote>
+              
+            </center>
+            </div>
+          </center>
+          </td>
+            <td>
+              <center>
+              <div>
+                <center>
+                <img style="margin:10px;" width="200px" height="200px" src="C:\Users\LENOVO\Desktop\G\ss.jpg">
+                <h3 style="font-family:kelvetica;font-size:20px;">Shruthi Subramanian</h3>
+                <hr style="width:40px;color:#03A9F4">
+                <quote>Courteous treatment will make a customer a walking advertisement. Haha! I am definitely one of your unpaid advertisers Lumiere. Thank you for your service.</quote>
+              </center>
+              </div>
+            </center>
+            </td>
+        </tr>
+        <tr>
+          <td>
+            <center>
+            <div>
+              <center>
+              <img style="margin:10px;" width="200px" height="200px" src="C:\Users\LENOVO\Desktop\G\shrub.jpg">
+              <h3 style="font-family:kelvetica;font-size:20px;">Shruti Shankar</h3>
+              <hr style="width:40px;color:#03A9F4">
+              <quote>The way to a customer’s heart is much more than a loyalty program. Making customer evangelists is about creating experiences worth talking about. Way to go Lumiere. You were amazing at my sister's engagement. Thank You!!!</quote>
+            </center>
+            </div>
+          </center>
+          </td>
+          <td>
+            <center>
+            <div>
+              <center>
+              <img style="margin:10px;" width="200px" height="200px" src="C:\Users\LENOVO\Desktop\G\jona.jpg">
+              <h3 style="font-family:kelvetica;font-size:20px;">Jona Sherly</h3>
+              <hr style="width:40px;color:#03A9F4">
+              <quote>Going above and beyond involves making customers “feel special” and  helping them out even when it may not make sense. An understanding that only Lumiere has!! Keep it up!!</quote>
+            </center>
+            </div>
+          </center>
+          </td>
+            <td>
+              <center>
+              <div>
+                <img style="margin:10px;" width="200px" height="200px" src="C:\Users\LENOVO\Desktop\G\keshu1.jpg">
+                <h3 style="font-family:kelvetica;font-size:20px;">Kesavarthini Ilanchezhian</h3>
+                <hr style="width:40px;color:#03A9F4">
+                <quote>"Simply Superb!! That’s all I need to say about Lumiere and how they have been able to create a point of differentiation through customer satisfaction."</quote>
+              </div>
+            </center>
+            </td>
+        </tr>
+      </table>
+    </center>
+</div>
+
+<hr>
+<br>
+<br>
+
+
+
+            
+
+	    <div  id="3" style="color: #777;background-color:#FA8072;text-align:center;padding:5px 50px;text-align: justify; margin-bottom: 10%">
+    <h1 class="heading"><b>This is the fabric of our culture and the framework for all decisions made within these walls. Heads up, they tend to be contagious.</b></h1>
+      <center>
+      <table width=100%>
+        <tr>
+          <td>
+            <center>
+            <div>
+              <center>
+              <h1>Autenticity</h1>
+              <h3>To be genuine, be vulnerable</h3>
+              <hr>
+            </center>
+            </div>
+          </center>
+          </td>
+          </tr>
+
+          <tr>
+          <td>
+            <center>
+            <div>
+              <center>
+              <h1>Simplicity.</h1>
+              <h3>Distill to the meaningful and balanced.</h3>
+              <hr>
+            </center>
+            </div>
+          </center>
+          </td>
+          </tr>
+
+          <tr>
+          <td>
+            <center>
+            <div>
+              <center>
+              <h1>Drive.</h1>
+              <h3>Do what you love..</h3>
+              <hr>
+            </center>
+            </div>
+          </center>
+          </td>
+          </tr>
+
+          <tr>
+          <td>
+            <center>
+            <div>
+              <center>
+              <h1>Adventure.</h1>
+              <h3>Take risks and embrace where they take you.</h3>
+              <hr>
+            </center>
+            </div>
+          </center>
+          </td>
+          </tr>
+        
+      </table>
+    </center>
+</div>
+
+<div id="4" class="bgimg-2">                         
+            <div style="position:relative;text-align:center;padding:50px 70px 30px 90px;text-align: justify;color: #FA8072">
+                <h2><b>Our Auror Office Address..</b></h2>
+                <hr>
+                <p style="font-size:20px; color: #FA8072; align-content: center;">
+                    <b>Our Address</b><br>
+                    Lumiere<br> 1500 Lexington Avenue<br> NYC<br>USA
+                    <br><br>   
+                    
+                    <b>Phone</b><br>
+                    044-22342916
+                </p>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+</body>
+</html>
